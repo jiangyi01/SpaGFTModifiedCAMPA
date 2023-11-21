@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+*.json
+*.npy
+*.csv
+*.h5ad
+*.pickle
+*.zip
+__pycache__/
+.nfs00000001225c3c5f00016a2f

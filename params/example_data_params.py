@@ -9,10 +9,6 @@ data_params = {
     # where to read data from (relative to DATA_DIR defined in data config)
     "data_dirs": [os.path.join("184A1_unperturbed", well) for well in ["I09", "I11"]]
     + [os.path.join("184A1_TSA", well) for well in ["I16"]]
-    # + [os.path.join("184A1_DMSO", well) for well in ["I14", "J16"]]
-    # + [os.path.join("184A1_AZD4573", well) for well in ["I13", "I17", "J14", "J18","J21"]]
-    # + [os.path.join("184A1_CX5461", well) for well in ["I18", "J09", "J22"]]
-    # + [os.path.join("184A1_meayamycin", well) for well in ["I12", "I20"]]
     + [os.path.join("184A1_triptolide", well) for well in ["I10"]],
     "channels": [
         "01_CDK9_pT186",

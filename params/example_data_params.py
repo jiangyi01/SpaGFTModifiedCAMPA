@@ -87,5 +87,5 @@ data_params = {
         "rescale_values": [],
     },
     # make results reproducible
-    "seed": 43,
+    "seed": 42,
 }

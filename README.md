@@ -30,7 +30,7 @@ conda create -n modified_campa_env python==3.9
 conda activate modified_campa_env # when running CAMPA_SpaGFT, the environment is required
 pip install -r requirements.txt
 ```
-We recommend [jupyter](https://jupyter.org/) for interactive usage. It can be installed and configured by
+We recommend [jupyter](https://jupyter.org/) for interactive usage under `modified_campa_env`. It can be installed and configured by
 ```bash
 conda install jupyter
 python -m ipykernel install --user --name=modified_campa_env --display-name=modified_campa_env

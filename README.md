@@ -26,8 +26,12 @@ conda env list
 
 CAMPA was developed for Python 3.9 and it envirment can be installed from `requirements.txt`:
 ```bash
+conda deactivate
 conda create -n modified_campa_env python==3.9
-conda activate modified_campa_env # when running CAMPA_SpaGFT, the environment is required
+git clone https://github.com/jiangyi01/SpaGFTModifiedCAMPA.git
+cd SpaGFTModifiedCAMPA
+# when running CAMPA_SpaGFT, the environment is required
+conda activate modified_campa_env 
 pip install -r requirements.txt
 ```
 We recommend [jupyter](https://jupyter.org/) for interactive usage under `modified_campa_env`. It can be installed and configured by
